@@ -1,0 +1,178 @@
+body{
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(20deg,rgb(56,3,52) 10%,rgb(37,8,30) 50%);
+    background-image: url('img/—Pngtree—vector school bag calculator cyan_1070766.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.main-box{
+    width: 25%;
+    height: 94vh;
+    border:none;
+    box-shadow: 0 0 5px grey, inset 0 0 10px black;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 2%;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+   
+}
+.main-box>.first-box{
+    width: 95%;
+    margin-left: 2.3%;
+    border: 1px solid black;
+    margin-top: 6px;
+    height: 92vh;
+    background: linear-gradient(20deg,rgb(45,44,58) 10%,rgb(10,10,10) 40%);
+    border-radius: 5px;
+
+}
+.main-box>.first-box>.second-box{
+    display: flex;
+    flex-direction: column;
+    
+    width: 95%;
+    margin-left: 1%;
+
+}
+.main-box>.first-box>.second-box>span{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.main-box>.first-box>.second-box>span>small{
+   font-size: 10px; 
+     margin-top: 4px; 
+}
+.main-box>.first-box>.second-box> span> button{
+    width: 55px;
+    margin-left: 2px;
+    padding: 1px 3px;
+   height: 28px;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   outline: none;
+   background-color: rgb(59, 55, 55);
+   color: white;
+  
+}
+.main-box>.first-box>.second-box>span>button:hover{
+    transform: scale(0.95);
+}
+.main-box>.first-box>.third-box{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5px;
+    
+   
+}
+.main-box>.first-box>.third-box>span{
+    display: flex;
+    justify-content: space-around;
+}
+.main-box>.first-box>.third-box>span>small{
+    font-size: 10px; 
+}
+.main-box>.first-box>.third-box>span>button{
+    width: 55px;
+    margin-left: 1.5px;
+    padding: 1px 3px;
+    margin-top: 3px;
+    border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 33px;
+   background-color: black;
+   color: white;
+   outline: none;
+}
+.main-box>.first-box>.third-box>span>button[name="del"]{
+    width: 55px;
+    margin-left: 1.5px;
+    padding: 1px 3px;
+    margin-top: 3px;
+    border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 33px;
+   background-color: rgb(235, 113, 19);
+   color: white;
+   outline: none;
+
+}
+.main-box>.first-box>.third-box>span>button[name="ac"]{
+    width: 55px;
+    margin-left: 1.5px;
+    padding: 1px 3px;
+    margin-top: 3px;
+    border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   height: 33px;
+   background-color: rgb(235, 113, 19);
+   color: white;
+   outline: none;
+
+}
+.main-box>.first-box>.third-box>span>button:hover{
+    transform: scale(0.95);
+}
+.main-box>.first-box>.box-one-top{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 29vh;
+    border: 1px solid rgb(34, 32, 32);
+   
+}
+.main-box>.first-box>.box-one-top>#box-one-bottom>{
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.main-box>.first-box>.box-one-top>#box-one-bottom>button{
+    width: 60px;
+    margin-left: 2.5%;
+    margin-top: 6px;
+    outline: none;
+    background-color: rgb(82, 19, 82);
+    color: white;
+    border: none;
+    height: 22px;
+    border-radius: 3px;
+}
+.main-box>.first-box>.box-one-top>#box-one-bottom>button:hover{
+    transform: scale(0.95);
+}
+.main-box>.first-box>.box-one-top>#box-one-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4px;
+    font-size: 13px;
+}
+.main-box>.first-box>.box-one-top>#box-one-middle{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 4px;
+    height: 13vh;
+    border: 1px solid black;
+    box-shadow:  inset 0 0 8px grey;
+}
+.main-box>.first-box>.box-one-top>#box-one-middle>input[type=text]{
+    width: 95%;
+    margin-left: 1.5%;
+    height: 10vh;
+    border: none;
+    box-shadow:  inset 0 0 8px black;
+    margin-top: 2.5%;
+}
+
+@media(max-width:830px){
+    .main-box{
+        width: 100%;
+    }
+}
